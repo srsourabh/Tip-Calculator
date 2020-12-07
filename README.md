@@ -10,6 +10,9 @@ Step 3: right click on index.html page and select "open with live server" option
 
 Step : Here is your app!
 
+Note ---> if file browser showing any error then please open the file in incognito mode.
+
 Note -> Please full screen your browser screen 
+
 
 Thank you!
