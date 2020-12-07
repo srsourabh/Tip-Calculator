@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset="utf-8">
+<title>Tip Calculator</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2> Tip Calculator</h2>
+        </div>
+        <form>
+            <p><b>How much is the bill?</b></p>
+            <input type="number" id="amount" placeholder="Bill Amount" maxlength="9">
+            <p><b>How much would you like to tip?</b></p>
+            <input type="number"  id="tip" placeholder="In %" maxlength="9">
+            <p><b>How much people sharing the bill?</b></p>
+            <input type="number" id="numberPeople" placeholder="Number of People" maxlength="9">
+
+        </form>
+        <button class="calc" onclick="calculateTip()">Calculate</button>
+        <div id="single">
+            <p><b>Tip: $<span id="tipAmount"></span></b></p>
+            <p><b>Total: $<span id="billTotal"></span></b></p>
+
+        </div>
+        <div id="multiple">
+            <p><b>Tip per person: $<span id="totalTipMultiple"></span></b></p>
+            <p><b>Total Bill per Person: $<span id="totalAmountEach"></span></b></p>
+            <p><b> Total Bill: $<span id="billTotalMultiple"></span></b></p>
+
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+
+</html>
